@@ -11,7 +11,7 @@ array = [1,2,4,5]
 sum = 3
 def brute_force_pair_sum(array, sum):
     for i in range(len(array)):
-        for j in rang(i+1, len(array)):
+        for j in range(i+1, len(array)):
             if array[i] + array[j] == sum:
                 return 'Yes'
     return 'No'
